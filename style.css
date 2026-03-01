@@ -1,0 +1,40 @@
+body {
+  background-color: lightpink;
+  text-align: center;
+  color: violet;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  color: grey;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  list-style-image: url('sqpurple.gif');
+  list-style-type: square;
+}
+
+
+div {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+
+#bingle {
+    background-color: red;
+}
+
+.vl {
+  border-left: 6px solid black;
+  height: 5px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
