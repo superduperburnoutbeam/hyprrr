@@ -1,16 +1,21 @@
 body {
-  background-color: lightpink;
+  background-color: #E0DFDC;
   text-align: center;
-  color: violet;
-  font-family: "Courier New", Courier, monospace;
+  color: #6F1806;
+  font-family: Andale Mono, monospace;
 }
 
 h1 {
-  color: grey;
+  font-family: Luminari, fantasy;
+}
+
+h2 {
+    font-family: Luminari, fantasy;
+    opacity: 0.5;
 }
 
 p {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 ul {
@@ -26,15 +31,44 @@ div {
     width: 300px;
 }
 
-#bingle {
-    background-color: red;
+strong {
+    font-family: "Courier New", monospace;
 }
 
-.vl {
-  border-left: 6px solid black;
-  height: 5px;
+a {
+    color: #290903;
+}
+
+a:hover {
+    color: red;
+    
+}
+
+button {
+    color: #6F1806;
+    font-family: Andale Mono, monospace;
+}
+
+#bangle {
   position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+}
+
+#bingle {
+    background-color: #29200A;
+}
+
+#bongle {
+    background-image: linear-gradient(to bottom right, #E0DFDC,#6F1806 );
+}
+
+.accessability {
+    font-size: 50px;
+}
+
+.gap {
+    width: 50px;
 }
