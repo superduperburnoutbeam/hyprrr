@@ -21,6 +21,11 @@ p {
 ul {
   list-style-image: url('sqpurple.gif');
   list-style-type: circle;
+  list-style-position: inside;
+}
+
+ol {
+  list-style-position: inside;
 }
 
 
