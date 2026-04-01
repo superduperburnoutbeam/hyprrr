@@ -28,14 +28,6 @@ ol {
   list-style-position: inside;
 }
 
-
-div {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-}
-
 strong {
     font-family: "Courier New", monospace;
 }
