@@ -45,7 +45,9 @@ button {
     color: #6F1806;
     font-family: Andale Mono, monospace;
 }
-
+footer p{
+  font-size: 10px;
+}
 #bangle {
   position: absolute;
   top: 80px;
