@@ -1,77 +1,108 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background-color: #E0DFDC;
+  color: #6F1806;
+  font-family: Andale Mono, monospace, garamond, tahoma;
+  word-spacing: normal;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
 body {
+  line-height: 1.5;
+  /* background-image: url('../images/background.jpg');*/
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#intro {
+  margin: 20px 0 80px 40px;
+}
+#intro h1{
+  font-size: 30px;
+}
+nav {
+  clear: left;
+  width: 42.5%;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 30%;
+  text-transform: lowercase;
+}
+#quote_block {
+  margin: 20px 0 80px 40px;
+}
+#quote_block #person{
+  margin-top: 10px;
+  font-weight: 600;
+  width: 100px;
+}
+
+#buttons {
+  margin-left: 10%;
+  border: solid 10px #6F1806;
+  padding: 10px;
+  float: left;
+  width: 88px;
+}
+
+#buttons a{
+  display: block;
+  width: 88px;
+  height: 31px;
+}
+
+#buttons img{
+  width: 88px;
+  height: 31px;
+}
+#bingle {
+  margin-bottom: 20px;
+}
+  /*
   background-color: #E0DFDC;
   text-align: center;
   color: #6F1806;
   font-family: Andale Mono, monospace;
-}
+  */
 
-h1 {
-  font-family: Luminari, fantasy;
-}
-
-h2 {
-    font-family: Luminari, fantasy;
-    opacity: 0.5;
-}
-
-p {
-  font-size: 15px;
-}
-
-ul {
+  /*
   list-style-image: url('sqpurple.gif');
   list-style-type: circle;
   list-style-position: inside;
-}
-
-ol {
-  list-style-position: inside;
-}
-
-strong {
-    font-family: "Courier New", monospace;
-}
-
-a {
-    color: #290903;
-}
-
-a:hover {
-    color: red;
-    
-}
-
-button {
-    color: #6F1806;
-    font-family: Andale Mono, monospace;
-}
-footer p{
-  font-size: 10px;
-}
-#bangle {
-  position: absolute;
-  top: 80px;
-  right: 0;
-  width: 200px;
-  height: 100px;
-}
-
-#bingle {
-    background-color: #29200A;
-}
-
-#bongle {
-    background-image: linear-gradient(to bottom right, #E0DFDC,#6F1806 );
-}
-
-.accessability {
-    font-size: 50px;
-}
-
-.gap {
-    width: 40px;
-}
-
-.button {
-    
-}
+*/
