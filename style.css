@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-v2.0 | 20110126
-License: none (public domain)
-*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,19 +17,14 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  background-color: #E0DFDC;
-  color: #6F1806;
-  font-family: Andale Mono, monospace, garamond, tahoma;
-  word-spacing: normal;
+  font-family: Andale Mono, garamond, tahoma;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  line-height: 1.5;
-  /* background-image: url('../images/background.jpg');*/
+  line-height: 1;
 }
 ol, ul {
   list-style: none;
@@ -50,62 +41,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-#intro {
-  margin: 1.5% 0 2.5% 1.5%;
+#main_title{
+  padding-right: 45%;
+  padding-left: 45%;
+  width: 10%;
+  margin-top: 5%;
 }
-#intro h1{
-  font-size: 30px;
+#main_title h1{
+  font-size: 50px;
 }
-nav {
-  clear: left;
-  width: 42.5%;
+#main_body {
+  margin-top: 5%;
+  margin-left: 10%
+  margin-right: 10%;
+}
+#main_buttons {
+  width: 88px;
   padding: 10px;
-  margin-left: 1.5%;
-  margin-top: 15%;
-  margin-bottom: 5%;
-  text-transform: lowercase;
 }
-#quote_block {
-  margin: 5dvh 0 80px 40px;
-}
-#quote_block #person{
-  margin-top: 10px;
-  font-weight: 600;
-  width: 100px;
-}
-
-#buttons {
-  margin-left: 30px;
-  padding: 10px;
-  width: 90%;
-}
-
-#buttons a{
-  display: inline-block;
+#main_buttons img {
+  float: left;
+  padding-top: 2.5%;
+  padding-left: 20px;
   width: 88px;
   height: 31px;
 }
-
-#buttons img{
-  width: 88px;
-  height: 31px;
+#main_texts {
+  float: right;
+  
 }
-#bingle {
-  margin-bottom: 20px;
-}
-#texts {
-  margin-left: 15px;
-  margin-right: 15px;
-  background-color: #6F1806;
-  padding: 10px;
-}
-#texts img {
-  width: 100px;
-}
-  /*
-  background-color: #E0DFDC;
-  text-align: center;
-  color: #6F1806;
-  font-family: Andale Mono, monospace;
-  */
