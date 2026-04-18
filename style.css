@@ -18,6 +18,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
   font-family:  monospace;
+  color: #612318;
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -56,6 +57,7 @@ table {
   font-size: 0;
   border: solid #aacad4 15px;
   background-color: #aacad4;
+  border-radius: 10px;
 }
 #buttons img{
   width: 88px;
@@ -90,6 +92,10 @@ table {
   padding-left: 15px;
   list-style-type: circle;
 }
+#pronouns {
+  font-size: 9px;
+  vertical-align: super;
+}
 #block{
   height: 60vh;
   display: grid;
@@ -97,10 +103,13 @@ table {
   grid-template-rows: auto auto;
   box-sizing: border-box;
   gap: 2.5%;
-  background-color: #836b7e;
 }
 #block div{
   font-size: 15px;
+  background-color: #aacad4;
+  box-sizing: border-box;
+  border: solid 10px #aacad4;
+  border-radius: 10px;
 }
 
 /* colors in use
