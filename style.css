@@ -49,16 +49,17 @@ table {
 /* buttons and shit */
 #buttons {
   float: left;
-  width:88px;
-  margin-top: 100px;
-  margin-left: calc(7.5% - 44px);
-  margin-right: calc(2.5% - 44px);
-  border: solid #f75bd2 4px;
-  border-radius: 5px;
+  width:176px;
+  margin-top: 50px;
+  margin-left: calc(7.5% - 103px);
+  margin-right: calc(2.5% - 103px);
   font-size: 0;
+  border: solid #aacad4 15px;
+  background-color: #aacad4;
 }
 #buttons img{
   width: 88px;
+  height: 31px;
 }
 .main_body{
   float: right;
@@ -66,11 +67,10 @@ table {
   width: 77.5%;
   margin-right: 7.5%;
   margin-left: 2.5%;
-  background-color: lightblue;
 }
 .main_body div{
   margin: 2.5%;
-  font-size: 14px;
+  font-size: 15px;
 }
 #title {
 }
@@ -78,23 +78,36 @@ table {
   font-size: 50px;
 }
 #links{
-  font-size: 12px;
+  font-size: 15px;
 }
 #links a{
   color:black;
 }
+#intro {
+  font-size: 14px;
+}
+#intro ul {
+  padding-left: 15px;
+  list-style-type: circle;
+}
 #block{
   height: 60vh;
-  background-color: red;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   box-sizing: border-box;
   gap: 2.5%;
-  border: solid 10px black;
-  border-radius: 5px;
+  background-color: #836b7e;
 }
 #block div{
-  background-color: yellow;
-  border: solid 10px black;
+  font-size: 15px;
 }
+
+/* colors in use
+background-#E0DFDC
+backdrop1-#ff92e5
+backdrop2-#aacad4
+border?-#474747
+yay-#836b7e
+blood-#612318
+*/
