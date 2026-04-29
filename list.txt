@@ -1,0 +1,11 @@
+1. Styling and proper css
+2. Recap on flexbox and grid
+3. Color palattes
+3.5 general styling
+  ->Custom cursor 
+  ->Error page
+  ->Accessability
+4. Ask ellie for help with Linux permissions
+5. Get a temp setup with apache
+6. get cloudflare linked up
+7. Learn go + git
