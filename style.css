@@ -1,16 +1,4 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, h1, h2, h3, h4, h5, h6, p, ol, ul, li{
   margin: 0;
   padding: 0;
   border: 0;
@@ -18,14 +6,14 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
   font-family:  monospace;
-  color: #622031;
+  color: #D93C37;
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  background-color: #E0DFDC;
+  background-color: #CFE8E9;
   line-height: 1;
 }
 .main-container {
@@ -57,7 +45,6 @@ table {
   font-size: 0;
   border: solid #bdbdd5 15px;
   background-color: #bdbdd5;
-  border-radius: 10px;
   box-sizing: border-box;
 }
 #buttons img{
@@ -81,10 +68,8 @@ table {
 }
 #links{
   font-size: 15px;
-  width: 100%;
-  border: solid #bdbdd5 15px;
+  width: 100%;#92BDBF 15px;
   background-color: #bdbdd5;
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,7 +77,7 @@ table {
   justify-content: space-evenly;
 }
 #links a{
-  color:black;
+  color: #58503D;
 }
 #intro {
   font-size: 14px;
@@ -117,7 +102,6 @@ table {
   background-color: #bdbdd5;
   box-sizing: border-box;
   border: solid 10px #bdbdd5;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
