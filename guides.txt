@@ -1,0 +1,11 @@
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://css-tricks.com/complete-guide-css-grid-layout/
+
+https://learn.shayhowe.com/html-css/getting-to-know-html/
+
+https://webstyleguide.com/wsg3/index.html
+
+https://html.spec.whatwg.org/multipage/syntax.html
+
+https://pokeswatch.com
