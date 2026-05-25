@@ -18,7 +18,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  background-color: #CFE8E9;
+  background-color: #FFFFFF;
   line-height: 1;
 }
 .main-container {
@@ -100,7 +100,7 @@ table {
 }
 .block{
   height: 60vh;
-  width: 100%;
+  width: 80vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
@@ -114,10 +114,6 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#in_progress {
-  min-width: 100px;
-  max-width: 300px;
 }
 
 
