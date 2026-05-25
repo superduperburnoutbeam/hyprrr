@@ -60,7 +60,6 @@ table {
     margin-bottom: 50px;
 }
 #container { 
-    background-color: #bdbdd5;
     min-height: 70vh;
     height: auto;
     width: 60vw;
@@ -71,8 +70,8 @@ table {
     row-gap: 10px;
     padding: 10px;
 }
-#container .project,p {
-    background-color: red;
+#container .project,p {    
+    background-color: #bdbdd5;
 }
 .project {
     display:flex;
