@@ -21,7 +21,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
-    background-color: #CFE8E9;
+    background-color: #FFFFFF;
     line-height: 1;
 }
 ol, ul {
@@ -49,12 +49,10 @@ table {
 }
 #title {
     margin-top: 50px;
-    background-color: #bdbdd5;
     font-size: 50px;
     margin-bottom: 50px;
 }
 #links {
-    background-color: #bdbdd5;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
