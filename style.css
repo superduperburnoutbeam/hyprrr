@@ -48,7 +48,8 @@ table {
   width: 100%;
   margin-top: 15px;
   font-size: 0;
-  border: solid #bdbdd5 15px;
+  border: solid 15px #bdbdd5;
+  border-radius: 10px;
   background-color: #bdbdd5;
   box-sizing: border-box;
 }
@@ -80,6 +81,8 @@ table {
   align-items: center;
   box-sizing: border-box;
   justify-content: space-evenly;
+  border: solid 15px #bdbdd5;
+  border-radius: 10px;
 }
 #links a{
   color: #594C3E;
@@ -110,7 +113,8 @@ table {
   font-size: 15px;
   background-color: #bdbdd5;
   box-sizing: border-box;
-  border: solid 10px #bdbdd5;
+  border: solid 15px #bdbdd5;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
