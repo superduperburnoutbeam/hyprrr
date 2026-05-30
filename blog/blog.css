@@ -2,6 +2,14 @@
 v2.0 | 20110126
 License: none (public domain)
 */
+@font-face {
+  font-family: "runholdy";
+  src: url("../fonts/Runholdy.ttf");
+}
+@font-face {
+  font-family: "Alkes";
+  src: url("../fonts/AlkesThin.TTF");
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -63,6 +71,7 @@ table {
 }
 #main_header h1{
     font-size: 60px;
+    font-family: runholdy;
 }
 .links {
     font-size: 15px;
@@ -72,11 +81,13 @@ table {
     align-items: center;
     margin-bottom: 20px;
 }
+.links a{
+    font-family: Alkes;
+}
 .post {
-    display: flex;
     margin-bottom: 20px;
-    background-color: red;
-    height: 200px;
+    background-color: black;
+    height: 2000px;
 }
 .thumbnail {
     width: 100px;

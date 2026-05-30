@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "runholdy";
+  src: url("../fonts/Runholdy.ttf");
+}
+@font-face {
+  font-family: "Alkes";
+  src: url("../fonts/AlkesThin.TTF");
+}
+h1 { 
+    font-size: 40px;
+    font-family: runholdy;
+    color: #612318;
+}
+#links a{
+    font-family:  Alkes;
+    color: #594C3E;
+}

@@ -89,7 +89,7 @@ table {
   font-size: 25px;
 }
 #links{
-  font-size: 15px;
+  font-size: 22.5px;
   width: 100%;
   background-color: #bdbdd5;
   display: flex;
@@ -120,7 +120,7 @@ table {
 }
 .block{
   height: 60vh;
-  width: 80vw;
+  width: 95%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
