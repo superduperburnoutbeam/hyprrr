@@ -85,6 +85,9 @@ table {
 #title h1{
   font-size: 50px;
 }
+#title h2{
+  font-size: 25px;
+}
 #links{
   font-size: 15px;
   width: 100%;
