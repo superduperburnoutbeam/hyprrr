@@ -10,7 +10,6 @@ Stuff to add to the website
 -> Mobile CSS
 -> Animals Page
 -> Ambient Noise
--> Project Info Github
 -> Skill Checks
 -> Under Development Page
 -> Wrapping Flex
