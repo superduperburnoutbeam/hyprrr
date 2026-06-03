@@ -10,3 +10,4 @@ this is insanely shit, but be nice
 it's my first time really working with alot of this stuff
 so srry if its bad but sucks to suck ig
 but ye is cool
+![silly](../images/tits.jpg)
