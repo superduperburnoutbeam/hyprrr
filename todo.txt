@@ -1,0 +1,18 @@
+Stuff to add to the website
+
+-> Custom Cursor
+-> Favicon
+-> About Me
+-> Specs Area
+-> Website History
+-> Integrate Bio
+-> Alt Text
+-> Mobile CSS
+-> Animals Page
+-> Ambient Noise
+-> Project Info Github
+-> Skill Checks
+-> Under Development Page
+-> Wrapping Flex
+-> Project Pages
+-> Self-Immolation Page

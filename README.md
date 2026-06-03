@@ -1,4 +1,8 @@
-# website
+---
+title: My Website
+author: Hyprrbeam
+date: 2/26/2026
+---
 this is my website in progress
 this is insanely shit, but be nice
 it's my first time really working with alot of this stuff
